@@ -1,0 +1,19 @@
+Write a program to create the following BD Meteorological System. In this simple system, we will record the temperatures of different cities of Bangladesh. The following menu will always be displayed except if exited by pressing ‘q’. 
+
+======= BD Meteorological System =========
+
+• Enter ‘x’, to take a temperature of a city into “temperatures”  array of size N.
+
+• Enter ‘y’, to find and display the highest temperature among all the cities.
+
+• Enter ‘z’, to display the temperatures that are less than half of the highest temperature.
+
+• Enter ‘q’, to quit/exit the menu system.
+
+• For any other input, display “Invalid Input.”
+
+ 
+
+After the menu is displayed, the program will prompt the user “Enter your choice: “ to enter a choice from the menu. After a user enters his choice, the program will act according to the menu choice mentioned above.
+
+That means, if a user enters ‘x’, your program will take the temperature of a city into the “temperatures” array from the keyboard. The array size is N. N can be a large number. You need to use another variable n to represent the current number of values in the array. Initially n will be zero. Every time a user enters ‘x’, temperature of another city will be stored, and n will be increased by 1. If user enters ‘z’, it will display the temperatures that are less than half of the highest temperature. For choice ‘z’, it also needs to compute the highest temperature of all cities. For choices ‘y’ and ‘z’, the program needs to check whether temperatures of some cities are already populated into the “temperatures” array or not. If not populated, it will display “No temperature information is found. Please populate your temperature information first.” Use switch case to handle the choice options entered by the user. Do not use library functions to find the highest temperature.
